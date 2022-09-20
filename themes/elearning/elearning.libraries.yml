@@ -3,12 +3,19 @@ global-components:
   Version: 1.x
   css:
     theme:
+      css/all.min.css: {}
+      css/bootstrap-icons.css: {}
+      css/animate.min.css: {}
+      css/owl.carousel.min.css: {}
       css/bootstrap.min.css: {}
       css/style.css: {}
-      css/all.min.css: {}
   js:
     js/jquery-3.4.1.min.js: {}
-    js/bootstrap.bundle.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/wow.min.js: {}
+    js/easing.min.js: {}
+    js/waypoint.min.js: {}
+    js/owl.carousel.min.js: {}
     js/main.js: {}
   dependencies:
     - core/jquery
@@ -16,61 +23,3 @@ global-components:
     - core/drupal
     - core/drupalSettings
     - core/jquery.once
-
-# animate
-animate:
-  version: 1.x
-  css:
-    theme:
-      lib/animate/animate.css: {}
-      lib/animate/animate.min.css: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
-
-
-# easing
-easing:
-  version: 1.x
-  js:
-    lib/easing/easing.js: {}
-    lib/easing/easing.min.js: {}
-  dependencies:
-    - core/jquery
-
-# OWL
-owl:
-  version: 1.x
-  css:
-    theme:
-      lib/owlcrousel/assets/owl.carousel.css: {}
-      lib/owlcrousel/assets/owl.carousel.min.css: {}
-      lib/owlcrousel/assets/owl.theme.default.css: {}
-      lib/owlcrousel/assets/owl.theme.default.min.css: {}
-      lib/owlcrousel/assets/owl.theme.green.css: {}
-      lib/owlcrousel/assets/owl.theme.green.min.css: {}
-  js:
-    lib/owlcrousel/owl.carousel.js: {}
-    lib/owlcarousel/owl.carousel.min.js: {}
-  dependencies:
-    - core/jquery
-
-# waypoint
-waypoint:
-  version: 1.x
-  js:
-    lib/waypoints/waypoint.min.js: {}
-  dependencies:
-    - core/jquery
-
-# wow
-wow:
-  version: 1.x
-  js:
-    lib/wow/wow.js: {}
-    lib/wow/wow.min.js: {}
-  dependencies:
-    - core/jquery
-

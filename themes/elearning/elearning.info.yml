@@ -9,11 +9,6 @@ core_version_requirement: ^8 || ^9
 #libraries
 libraries:
   - elearning/global-components
-  - elearning/animate
-  - elearning/easing
-  - elearning/owl
-  - elearning/waypoint
-  - elearning/wow
 
   
 
