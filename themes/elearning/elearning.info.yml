@@ -1,0 +1,19 @@
+name: Elearning
+type: theme
+description: 'This is a ELearning Theme'
+package: core
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+#libraries
+libraries:
+  - elearning/global-components
+  - elearning/animate
+  - elearning/easing
+  - elearning/owl
+  - elearning/waypoint
+  - elearning/wow
+
+  
+
