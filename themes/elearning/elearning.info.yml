@@ -12,12 +12,14 @@ libraries:
 
 #Regions
 regions:
-  menu: 'Main Menu'
+  headermenu: 'Header Main Menu'
   main_slide: 'Main Slider'
   content: 'Content'
   footer_1: 'Footer 1'
   footer_2: 'Footer 2'
   footer_3: 'Footer 3'
   footer_4: 'Footer 4'
+  footer_copywrite: 'Footer Copy Write'
+  footer_menu: 'Footer Menu'
 
 
