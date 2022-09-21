@@ -17,6 +17,7 @@ global-components:
     js/waypoint.min.js: {}
     js/owl.carousel.min.js: {}
     js/main.js: {}
+    js/my-jquery.js: {}
   dependencies:
     - core/jquery
     - core/drupal.ajax
