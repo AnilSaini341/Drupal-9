@@ -9,5 +9,12 @@
                 '#markup'=>'This is our basic page.' #Show content using markup
             ];
         }
+
+        public function information(){
+            return [
+                '#title'=>'Information page' 
+                '#markup'=>'This is information page.'
+            ];
+        }
     }
 ?>
