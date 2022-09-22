@@ -13,3 +13,4 @@ basic_page.information:
     _title: ''
   requirements:
     _permissions: 'access content'
+    _role: student+administrator
