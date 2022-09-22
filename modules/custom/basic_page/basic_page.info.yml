@@ -1,0 +1,6 @@
+name: Basic Page Module
+description: This is a Basic Page Module
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom Module
