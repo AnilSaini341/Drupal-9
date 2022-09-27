@@ -4,7 +4,7 @@ basic_page.basicPage:
     _controller: '\Drupal\basic_page\Controller\BasicPageController::basicPage'
     _title: 'Basic Page'
   requirements:
-    _permission: 'access content'
+    _permission: 'basic page permission'
 
 basic_page.information:
   path: '/information'
@@ -12,5 +12,5 @@ basic_page.information:
     _controller: '\Drupal\basic_page\Controller\BasicPageController::information'
     _title: ''
   requirements:
-    _permissions: 'access content'
-    _role: student+administrator
+    _permissions: 'information permission'
+    #_role: student+administrator
