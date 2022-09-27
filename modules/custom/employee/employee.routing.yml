@@ -1,0 +1,7 @@
+employee.CreateEmployee:
+  path: 'create-employee'
+  defaults: 
+    _form: 'Drupal\employee\Form\EmployeeForm'
+    _title: 'Create Form'
+  requirements: 
+   _permissions: 'access content'
