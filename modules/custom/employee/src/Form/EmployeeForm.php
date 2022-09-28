@@ -41,7 +41,7 @@
         $form['about_employee']= array(
             '#type'=>'textarea',
             '#title'=> 'About Employee',
-            '#default_value'=> 
+            '#default_value'=> ''
         );
 
         $form['save']= array(
